@@ -1,0 +1,40 @@
+CRITICAL - 2021-09-05 20:45:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'codeigniter-crud'
+#0 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\codeignitercrud\app\Controllers\NamesCrud.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\NamesCrud->index()
+#6 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#7 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeignitercrud\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-09-05 20:48:39 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\codeignitercrud\app\Controllers\NamesCrud.php(11): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\NamesCrud->index()
+#3 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#4 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeignitercrud\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2021-09-05 20:55:50 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\codeignitercrud\app\Controllers\NamesCrud.php(11): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\NamesCrud->index()
+#3 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#4 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeignitercrud\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2021-09-05 20:55:54 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\codeignitercrud\app\Controllers\NamesCrud.php(11): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\NamesCrud->index()
+#3 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+#4 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeignitercrud\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\codeignitercrud\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
